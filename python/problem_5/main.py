@@ -11,7 +11,6 @@ L.C.M. = (a×b)/gcd(a,b)
 
 def gcd(a, b):
     while b > 0:
-        print(b)
         a, b = b, a % b
     return a
 
